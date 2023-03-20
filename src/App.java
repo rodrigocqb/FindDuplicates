@@ -9,7 +9,7 @@ public class App {
 
         for (int i = 0; i < fruits1.length; i++) {
             for (int j = 0; j < fruits2.length; j++) {
-                if (fruits1[i] == fruits2[j]) {
+                if (fruits1[i].equals(fruits2[j])) {
                     duplicates.add(fruits1[i]);
                 }
             }
